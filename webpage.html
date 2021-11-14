@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Bheeshma Organic Online products</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="header">
+  <div class="navbar">
+        <a href="http://www.BheeshmaOrganicFarm.lk" class="logo">
+                <img src="logo.png" width="220px">
+        </a>
+        
+        <form action="" class="search-box-container">
+            <input type="search" id="search-box" placeholder="search here......">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#Add to cart" class="fas fa-shopping-cart"></a>
+            <a href="#Wishlist" class="fas fa-heart"></a>
+            <a href="#Account" class="fas fa-user-circle"></a>
+        </div>
+  </div>
+
+  <marquee class="animation" ><b><i>Let food be thy medicine and medicine be thy food...</i></b></marquee>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="row">
+        <div class="col-2">
+            <h2>100% Fresh and Organic</h2>
+            <h1>Daily Need Products</h1>
+            <a href="#product" class="btn">Buy Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="Background.png" alt="Background png">
+        </div>
+    </div>
+</section>
+</div>
+<!-- home section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="banner1.jpg" alt="banner1">
+        <div class="content">
+            <h3>special offer</h3>
+            <p>upto 15% off</p>
+            <a href="#box1" class="btn">check out &#8594;</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="banner2.jpg" alt="banner2">
+        <div class="content">
+            <h3>limited offer</h3>
+            <p>upto 20% off</p>
+            <a href="#box2" class="btn">check out &#8594;</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+<!-- product section starts  -->
+
+<section class="product" id="product">
+
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+
+        <div class="box" id="box1">
+            <span class="discount">-15%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="tomoto.png" alt="" id="Tomotos" onclick="productf()">
+            <h3>Tomotos</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> Rs.85 <span> Rs.100</span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#add to cart" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" id="box2">
+            <span class="discount">-20%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="rice.jpg" alt="" id="White Rice" onclick="productf()">
+            <h3>White Rice</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price"> Rs.112 <span> Rs.140 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /kg </span>
+            </div>
+            <a href="#add to cart" class="btn">add to cart</a>
+        </div>
+    
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="milk.jpg" alt="milk" id="Fresh Milk" onclick="productf()">
+            <h3>Fresh Milk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> Rs.76<span> Rs.80 </span> </div>
+            <div class="quantity">
+                <span>quantity : </span>
+                <input type="number" min="1" max="1000" value="1">
+                <span> /litre </span>
+            </div>
+            <a href="#add to cart" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+<!-------Footer------>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo2.png" alt="">
+                    <p>Our goal is to sustain good health and benefits by eating an organic diet.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3 class="uf">Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3 class="uf">Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Bheeshma Organic Farm</p>
+        </div>
+    </div>
+
+<!-------Footer------>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
